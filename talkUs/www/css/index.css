@@ -1,0 +1,43 @@
+#message{
+    color: #ff0000;
+}
+
+.form-inscription span{
+    
+    font-size: small;
+    color: #ff0000;
+}
+
+.form-inscription input::valid{
+    border-color: red;
+}
+
+.center {
+    /*text-align: center;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center a{
+    border-radius: 20px;
+}
+
+.form-login{
+    border: 1px solid #88888880;
+    padding: 20px;
+    box-shadow: 5px 10px #88888880;
+    border-radius: 10px;
+}
+
+.form-inscription{
+    border: 1px solid #88888880;
+    padding: 20px;
+    box-shadow: 5px 10px #88888880;
+    border-radius: 10px;
+}
+
+.content-inscription{
+    margin: 0 250px;
+}
